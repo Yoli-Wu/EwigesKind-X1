@@ -8,8 +8,8 @@ EwigesKind X1 is the first model in this series, where **X** comes from **["XGBo
 - **EwigesKind X1o** – The TerraneChron Method  
 - **EwigesKind X2** – PCA-filtered classification  
 - **EwigesKind L2** – LightGBM with PCA filtering  
-- **EwigesKind R-series** – Fine-tuned **LLMs** (e.g., DeepSeek) for multi-model benchmarking  
+- **EwigesKind R-series** – Fine-tuned **LLMs** (e.g., DeepSeek) for multi-model benchmarking（compare transformer-based models with traditional decision-tree models on geochemical datasets)
 
 ### Future Plans  
-- **Data and training visualization**  
-- **Possible GUI integration** *(based on demand)*
+- Data and training visualization
+- Possible GUI integration *(based on demand)*
