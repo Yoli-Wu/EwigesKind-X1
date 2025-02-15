@@ -23,7 +23,7 @@ module MainModule
     end
 
     function load_data()
-        file_path = "C:\\Users\\yoli_\\Desktop\\TASK\\Julia\\ml\\earthchem_download_32495.csv"
+        file_path = "C:\\……your_own_path\\earthchem_download_32495.csv"
         df = CSV.read(file_path, DataFrame; header=6)
 
         # Select feature columns
