@@ -14,9 +14,11 @@ EwigesKind X1 is the first model in this series, where **X** comes from **["XGBo
 - Data and training visualization
 - Possible GUI integration *(based on demand)*
 
+
 ---
 
-## How to Use
+
+# How to Use
 
 ### Prerequisites
 Ensure you have a **[Julia](https://julialang.org/downloads/)** environment set up.
