@@ -14,6 +14,8 @@ EwigesKind X1 is the first model in this series, where **X** comes from **["XGBo
 - Data and training visualization
 - Possible GUI integration *(based on demand)*
 
+---
+
 ## How to Use
 
 ### Prerequisites
@@ -25,7 +27,7 @@ Run [`Pkg_install.jl`](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/Pkg_in
 ### Training the Model
 To train the model on your own computer:
 1. Download the following files:
-   - [`earthchem_download_32495.csv`](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/Data%20and%20Reference/earthchem_download_32495.csv) (from **Data and Reference**)
+   - [`earthchem_download_32495.csv`](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/Data%20and%20Reference/earthchem_download_32495.csv)
    - [`Train.jl`](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/src/Train.jl)
    - [`Predict.jl`](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/src/Predict.jl)
 
