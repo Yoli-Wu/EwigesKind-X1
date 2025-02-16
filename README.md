@@ -14,26 +14,30 @@ EwigesKind X1 is the first model in this series, where **X** comes from **["XGBo
 - Data and training visualization
 - Possible GUI integration *(based on demand)*
 
-# How to Use
+## How to Use
 
 ### Prerequisites
 Ensure you have a **[Julia](https://julialang.org/downloads/)** environment set up.
 
 ### Installation
-Run `Pkg_install.jl` to install dependencies.
+Run [`Pkg_install.jl`](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/Pkg_install.jl) to install dependencies.
 
 ### Training the Model
-To train the model on your computer:
+To train the model on your own computer:
 1. Download the following files:
    - [`earthchem_download_32495.csv`](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/Data%20and%20Reference/earthchem_download_32495.csv) (from **Data and Reference**)
    - [`Train.jl`](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/src/Train.jl)
    - [`Predict.jl`](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/src/Predict.jl)
+
 2. Modify **line 26** in `Train.jl` to reflect the absolute path of the downloaded CSV file:
+
    ```julia
    file_path = "C:\your_own_path\earthchem_download_32495.csv"
    ```
-3. Run `Train.jl`. Upon successful execution, you should see:
-   ![Training Output](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/img/training.png)
+
+4. Run `Train.jl`. Upon successful execution, you should see:
+
+    ![Training Output](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/img/training.png)
 
 ### Making Predictions
 1. Insert **REE data** between **line 51 to line 54** in `Predict.jl`.
@@ -44,11 +48,15 @@ To train the model on your computer:
 ## Demos
 ### Demo 1
 - Example result:
+
   ![Demo 1](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/img/demo_1.png)
+
   ![Result Demo](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/img/result_demo.png)
 
 ### Demo 2
 The model struggles with prediction when too much data is missing but can still predict the first two categories (**material** and **type**).
 - Example result:
+
   ![Demo 2](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/img/demo_2.png)
+
   ![If Missing](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/img/if_missing.png)
