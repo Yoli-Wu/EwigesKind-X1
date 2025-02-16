@@ -41,6 +41,10 @@ To train the model on your own computer:
 
 4. Run `Train.jl`. Upon successful execution, you should see:
 
+   ```bash
+   🎉 Training completed successfully!
+   ```
+   
     ![Training Output](https://github.com/Yoli-Wu/EwigesKind-X1/blob/main/img/training.png)
 
 ### Making Predictions
